@@ -16,6 +16,7 @@ app.post('/add',async(req,res)=>{
     const savedData=await newUser.save();
     res.send(savedData);
 })
-app.listen(8000,()=>{
+const port=process.env.port||8000;
+app.listen(port,()=>{
     console.log('listening on poret 800')
 })
