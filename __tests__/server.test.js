@@ -1,4 +1,4 @@
 test('simple test', () => {
-    expect(1+1).toEqual(7);
+    expect(1+1).toEqual(2);
   });
 
