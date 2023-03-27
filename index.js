@@ -6,8 +6,7 @@ const cors = require('cors');
 app.use(cors())
 app.use(express.json())
 app.get('/',async(req,res)=>{
-
-  res.send('hello world');
+res.send('hello world');
 })
 // app.post('/add',async(req,res)=>{
 //     const {name}=req.body;
